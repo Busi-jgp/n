@@ -1,0 +1,36 @@
+{
+  "name": "workspace",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "workspaces": [
+    "backend/*",
+    "frontend/api-client-react",
+    "shared/*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "~19.1.10",
+    "@types/react-dom": "~19.1.7",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.14",
+    "prettier": "^3.8.1",
+    "tailwindcss": "^3.4.19",
+    "terser": "^5.47.1",
+    "typescript": "~5.9.2",
+    "vite": "^5.0.0"
+  }
+}

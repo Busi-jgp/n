@@ -1,0 +1,73 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Build Output
+dist/
+build/
+.next/
+out/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Supabase
+.supabase/
+supabase/.branches/
+supabase/.temp/
+supabase/volumes/
+
+# Vite
+.vite/
+
+# Misc
+*.pem
+*.key
+.env.vault
+.cache/
+.agents/
+.cursor/
+tmp/
+temp/
+*.tmp
+
+# Vercel
+.vercel/
+
+# TypeScript
+*.tsbuildinfo
+
